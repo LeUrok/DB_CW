@@ -1,0 +1,117 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:AnimalShelter.AnimalShelterUI.ViewModels"
+        x:DataType="vm:UserWindowViewModel"
+        x:CompileBindings="True"
+        Width="400" Height="700" 
+        x:Class="AnimalShelterUI.UserWindow"
+        Title="Управление сотрудниками">
+
+    <Grid RowDefinitions="*, auto, auto, auto, auto, auto, auto" 
+          ColumnDefinitions="*, *">
+       <ListBox Name="usersList" 
+              Grid.Row="0" 
+              Grid.Column="0" 
+              Grid.ColumnSpan="2"
+              Margin="0,0,0,20"
+              ItemsSource="{Binding UsersList}"/> 
+       <Label Content="Имя:" 
+              Grid.Row="1" 
+              Grid.Column="0" 
+              Margin="10"/>
+       <TextBox Name="nameTextBox" 
+              Grid.Row="1" 
+              Grid.Column="1" 
+              Text="{Binding UserName}"
+              Margin="10"/>
+        
+        <Label Content="Телефон:" 
+               Grid.Row="2" 
+               Grid.Column="0" 
+               Margin="10"/>
+        <TextBox Name="phoneTextBox" 
+                 Grid.Row="2" 
+                 Grid.Column="1" 
+                 Text="{Binding UserPhone}"
+                 Margin="10"/>
+        <Label Content="Почта:" 
+               Grid.Row="3" 
+               Grid.Column="0" 
+               Margin="10"/>
+        <TextBox Name="emailTextBox" 
+                 Grid.Row="3" 
+                 Grid.Column="1" 
+                 Text="{Binding UserEmail}"
+                 Margin="10"/>
+
+        <Label Content="Должность" 
+               Grid.Row="4" 
+               Grid.Column="0" 
+               Margin="10"/>
+        <ComboBox Name="jobComboBox" 
+                Grid.Row="4" 
+                Grid.Column="1" 
+                HorizontalAlignment="Stretch" 
+                Margin="5"
+                ItemsSource="{Binding Jobs}">
+        </ComboBox>
+
+
+
+       <Grid   Grid.Row="6"
+              Grid.Column="0"
+              Grid.ColumnSpan="2"
+              RowDefinitions="*, *" 
+              ColumnDefinitions="*, *, *, *, *, *">
+                     <Button Content="Сохранить" 
+                            Name="saveUserButton" 
+                            Grid.Row="0" 
+                            Grid.Column="0"
+                            Grid.ColumnSpan="3" 
+                            HorizontalContentAlignment="Center"
+                            Click="SaveUserButton" 
+                            HorizontalAlignment="Stretch" 
+                            Margin="5"/>
+                    <Button Content="Изменить" 
+                            Name="changeUserButton" 
+                            Grid.Row="0" 
+                            Grid.Column="3" 
+                            Grid.ColumnSpan="3"
+                            HorizontalContentAlignment="Center"
+                            Click="ChangeUserButton" 
+                            HorizontalAlignment="Stretch" 
+                            Margin="5"/>  
+                     <Button Content="Очистить" 
+                            Name="clearUserButton" 
+                            Grid.Row="1" 
+                            Grid.Column="0" 
+                            Grid.ColumnSpan="2" 
+                            HorizontalContentAlignment="Center"
+                            Click="ClearUserButton" 
+                            HorizontalAlignment="Stretch" 
+                            Margin="5"/> 
+                    <Button Content="Добавить" 
+                            Name="addUserButton" 
+                            Grid.Row="1" 
+                            Grid.Column="2" 
+                            Grid.ColumnSpan="2" 
+                            HorizontalContentAlignment="Center"
+                            Click="AddUserButton" 
+                            HorizontalAlignment="Stretch" 
+                            Margin="5"/> 
+                     <Button Content="Удалить" 
+                            Name="deleteUserButton" 
+                            Grid.Row="1" 
+                            Grid.Column="4" 
+                            Grid.ColumnSpan="2" 
+                            HorizontalContentAlignment="Center"
+                            Click="DeleteUserButton" 
+                            HorizontalAlignment="Stretch" 
+                            Margin="5"/> 
+       </Grid> 
+        
+
+    </Grid>
+</Window>

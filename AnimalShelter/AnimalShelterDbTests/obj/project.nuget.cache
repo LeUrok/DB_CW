@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "u3obML8tIVbjUjH75Pb7Bi6/KbdoZfuf5PGYYiru2Sl3d4p+tIhiDAWPi7wLMNBMzB7R5WP+VWQRJIv0vI/9qg==",
+  "success": true,
+  "projectFilePath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterDbTests/AnimalShelterDbTests.csproj",
+  "expectedPackageFiles": [
+    "/Users/leurok/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/leurok/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/leurok/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:vm="using:AnimalShelter.AnimalShelterUI.ViewModels" 
+        x:DataType="vm:MainWindowViewModel" 
+        x:CompileBindings="True" 
+        x:Class="AnimalShelterUI.ErrorMesgWindow" 
+        Title="MessageBox" 
+        Width="250" 
+        Height="100">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center"
+          RowDefinitions="auto, auto">
+        <TextBlock Text="Неверный логин или пароль" 
+                   HorizontalAlignment="Center" 
+                   Margin="10"
+                   Grid.Row="0"/>
+        <Button Content="OK" 
+                HorizontalAlignment="Center" 
+                HorizontalContentAlignment="Center"
+                Margin="10" 
+                Width="100" 
+                Grid.Row="1"
+                Click="OkButtonClick"/>
+    </Grid>
+</Window>

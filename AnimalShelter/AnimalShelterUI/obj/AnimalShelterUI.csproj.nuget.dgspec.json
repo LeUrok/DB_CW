@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AnimalShelterUI.csproj": {}
+  },
+  "projects": {
+    "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj",
+        "projectName": "AnimalShelterCore",
+        "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj",
+        "packagesPath": "/Users/leurok/.nuget/packages/",
+        "outputPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leurok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/AnimalShelterPostgreSql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/AnimalShelterPostgreSql.csproj",
+        "projectName": "AnimalShelterPostgreSql",
+        "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/AnimalShelterPostgreSql.csproj",
+        "packagesPath": "/Users/leurok/.nuget/packages/",
+        "outputPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leurok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj": {
+                "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AnimalShelterUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AnimalShelterUI.csproj",
+        "projectName": "AnimalShelterUI",
+        "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AnimalShelterUI.csproj",
+        "packagesPath": "/Users/leurok/.nuget/packages/",
+        "outputPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leurok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj": {
+                "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterCore/AnimalShelterCore.csproj"
+              },
+              "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/AnimalShelterPostgreSql.csproj": {
+                "projectPath": "/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterPostgreSql/AnimalShelterPostgreSql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.10, )"
+            },
+            "KuiperZone.Avalonia.Dialogs": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[3.1.5.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

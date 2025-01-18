@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelterCore", "AnimalShelterCore\AnimalShelterCore.csproj", "{9E880F2A-F1E7-4F40-8D1B-F2B3AB9C10C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelterPostgreSql", "AnimalShelterPostgreSql\AnimalShelterPostgreSql.csproj", "{D7C1E2F1-1B17-4FF0-9F5C-C6A7F582E9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelterDbTests", "AnimalShelterDbTests\AnimalShelterDbTests.csproj", "{70500F1E-C0F9-4D2B-9D7D-E71572A13147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelterUI", "AnimalShelterUI\AnimalShelterUI.csproj", "{264397C6-20E1-46C3-8CC0-1038571CE828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelterTests", "AnimalShelterTests\AnimalShelterTests.csproj", "{44990AFE-C416-483A-A5C8-DFA6C18CC9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E880F2A-F1E7-4F40-8D1B-F2B3AB9C10C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E880F2A-F1E7-4F40-8D1B-F2B3AB9C10C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E880F2A-F1E7-4F40-8D1B-F2B3AB9C10C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E880F2A-F1E7-4F40-8D1B-F2B3AB9C10C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C1E2F1-1B17-4FF0-9F5C-C6A7F582E9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C1E2F1-1B17-4FF0-9F5C-C6A7F582E9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C1E2F1-1B17-4FF0-9F5C-C6A7F582E9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C1E2F1-1B17-4FF0-9F5C-C6A7F582E9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70500F1E-C0F9-4D2B-9D7D-E71572A13147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70500F1E-C0F9-4D2B-9D7D-E71572A13147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70500F1E-C0F9-4D2B-9D7D-E71572A13147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70500F1E-C0F9-4D2B-9D7D-E71572A13147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264397C6-20E1-46C3-8CC0-1038571CE828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264397C6-20E1-46C3-8CC0-1038571CE828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264397C6-20E1-46C3-8CC0-1038571CE828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264397C6-20E1-46C3-8CC0-1038571CE828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44990AFE-C416-483A-A5C8-DFA6C18CC9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44990AFE-C416-483A-A5C8-DFA6C18CC9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44990AFE-C416-483A-A5C8-DFA6C18CC9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44990AFE-C416-483A-A5C8-DFA6C18CC9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

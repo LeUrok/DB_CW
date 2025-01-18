@@ -1,0 +1,40 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AnimalShelterUI
+build_property.ProjectDir = /Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AnimalWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/AuthorizationWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/BreedTypeWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/ErrorMesgWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/GuardianWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/leurok/Study/bmstu/6sem/DB_Course_work/AnimalShelter/AnimalShelterUI/UserWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
